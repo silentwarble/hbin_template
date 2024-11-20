@@ -28,8 +28,7 @@ GLOBAL ___chkstk_ms
 
     StRipPtrStart:
         mov	rax, [rsp]
-        sub rax, 0x1b 
-        ;;sub rax, 0x24
+        sub rax, 0x1b         
         ret           
 
     GetInStruct:
